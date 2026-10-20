@@ -1,13 +1,12 @@
 Did You Mean API
 ============
 
-Did You Mean is a simple tool for correcting spelling mistakes. It returns the corrected text.
+Did You Mean suggests spelling corrections for misspelled search queries and phrases. Pass any text string to receive the original query along with a list of alternate spelling suggestions.
 
-![Build Status](https://img.shields.io/badge/build-passing-green)
-![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
-![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a Python API Wrapper for the [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=pypi&utm_medium=readme)
+[![PyPI version](https://img.shields.io/pypi/v/apiverve-didyoumean.svg)](https://pypi.org/project/apiverve-didyoumean/)
+
+This is a Python wrapper for the [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -29,8 +28,8 @@ pip3 install apiverve-didyoumean
 
 ## Configuration
 
-Before using the didyoumean API client, you have to setup your account and obtain your API Key.
-You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=readme)
+Before using the Did You Mean API client, you have to setup your account and obtain your API Key.
+You can get it by signing up at [https://apiverve.com](https://apiverve.com?utm_source=pypi&utm_medium=referral&utm_content=readme)
 
 ---
 
@@ -60,7 +59,7 @@ except Exception as e:
 
 ## Usage
 
-The Did You Mean API documentation is found here: [https://docs.apiverve.com/ref/didyoumean](https://docs.apiverve.com/ref/didyoumean?utm_source=pypi&utm_medium=readme).
+The Did You Mean API documentation is found here: [https://docs.apiverve.com/ref/didyoumean](https://docs.apiverve.com/ref/didyoumean?utm_source=pypi&utm_medium=referral&utm_content=readme).
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
@@ -105,8 +104,8 @@ print(result)
     "query": "what weather today is",
     "didYouMean": [
       "what is the weather today",
-      "what's the weather today",
-      "what will the weather be today"
+      "what's the weather like today",
+      "what will be the weather today"
     ]
   }
 }
@@ -235,7 +234,7 @@ finally:
 
 ## Customer Support
 
-Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=readme).
+Need any assistance? [Get in touch with Customer Support](https://apiverve.com/contact?utm_source=pypi&utm_medium=referral&utm_content=readme).
 
 ---
 
@@ -246,12 +245,12 @@ Stay up to date by following [@apiverveHQ](https://twitter.com/apiverveHQ) on Tw
 
 ## Legal
 
-All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=readme) and all legal documents and agreements.
+All usage of the APIVerve website, API, and services is subject to the [APIVerve Terms of Service](https://apiverve.com/terms?utm_source=pypi&utm_medium=referral&utm_content=readme) and all legal documents and agreements.
 
 ---
 
 ## License
-Licensed under the The MIT License (MIT)
+Licensed under the MIT License (MIT)
 
 Copyright (&copy;) 2026 APIVerve, and EvlarSoft LLC
 
