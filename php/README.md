@@ -1,6 +1,6 @@
 # Did You Mean API - PHP Package
 
-Did You Mean is a simple tool for correcting spelling mistakes. It returns the corrected text.
+Did You Mean suggests spelling corrections for misspelled search queries and phrases. Pass any text string to receive the original query along with a list of alternate spelling suggestions.
 
 ## Installation
 
@@ -86,11 +86,11 @@ $client = new Client(
 
 ## Documentation
 
-For more information, visit the [API Documentation](https://docs.apiverve.com/ref/didyoumean?utm_source=packagist&utm_medium=readme).
+For more information, visit the [API Documentation](https://docs.apiverve.com/ref/didyoumean?utm_source=packagist&utm_medium=referral&utm_content=readme).
 
 ## Support
 
-- Website: [https://apiverve.com/marketplace/didyoumean?utm_source=php&utm_medium=readme](https://apiverve.com/marketplace/didyoumean?utm_source=php&utm_medium=readme)
+- Website: [https://apiverve.com/marketplace/didyoumean?utm_source=php&utm_medium=referral&utm_content=readme](https://apiverve.com/marketplace/didyoumean?utm_source=php&utm_medium=referral&utm_content=readme)
 - Email: hello@apiverve.com
 
 ## License
