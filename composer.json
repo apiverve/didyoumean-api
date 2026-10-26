@@ -1,7 +1,7 @@
 {
     "name": "apiverve/didyoumean",
     "description": "Did You Mean suggests spelling corrections for misspelled search queries and phrases. Pass any text string to receive the original query along with a list of alternate spelling suggestions.",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "type": "library",
     "license": "MIT",
     "authors": [
