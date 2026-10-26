@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Did You Mean API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [query] (required) - The text you want to check for spelling mistakes

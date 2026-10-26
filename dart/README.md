@@ -1,11 +1,11 @@
 # Did You Mean API - Dart/Flutter Client
 
-Did You Mean is a simple tool for correcting spelling mistakes. It returns the corrected text.
+Did You Mean suggests spelling corrections for misspelled search queries and phrases. Pass any text string to receive the original query along with a list of alternate spelling suggestions.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_didyoumean.svg)](https://pub.dev/packages/apiverve_didyoumean)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_didyoumean: ^1.1.14
+  apiverve_didyoumean: ^1.2.3
 ```
 
 Then run:
@@ -55,8 +55,8 @@ void main() async {
     "query": "what weather today is",
     "didYouMean": [
       "what is the weather today",
-      "what's the weather today",
-      "what will the weather be today"
+      "what's the weather like today",
+      "what will be the weather today"
     ]
   }
 }
@@ -64,12 +64,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/didyoumean](https://docs.apiverve.com/ref/didyoumean?utm_source=dart&utm_medium=readme)
+- **API Home:** [Did You Mean API](https://apiverve.com/marketplace/didyoumean?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/didyoumean](https://docs.apiverve.com/ref/didyoumean?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -77,4 +77,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
