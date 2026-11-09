@@ -1,4 +1,4 @@
-## 1.2.4
+## 1.2.5
 
 - Initial release
 - Full API support for Did You Mean API
